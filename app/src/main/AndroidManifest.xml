@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Ramim.studentinfo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".about"></activity>
+        <activity android:name=".feedback" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SchedulerActivity"
+            android:label="Schedules" />
+        <activity
+            android:name=".NewScheduleActivity"
+            android:label="New Schedule" />
+        <activity
+            android:name=".CgpaActivity"
+            android:label="Cgpa" />
+        <activity
+            android:name=".CreateNoteActivity"
+            android:label="Create Note" />
+        <activity
+            android:name=".NotesActivity"
+            android:label="Notes" />
+        <activity android:name=".ScheduleUpdateActivity" />
+    </application>
+
+</manifest>

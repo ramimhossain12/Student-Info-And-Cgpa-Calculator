@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0E0000"
+    tools:context=".Main2Activity">
+
+    <com.agrawalsuneet.dotsloader.loaders.AllianceLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:alliance_animDuration="500"
+        app:alliance_distanceMultiplier="4"
+        app:alliance_dotsRadius="20dp"
+        app:alliance_drawOnlyStroke="true"
+        app:alliance_firstDotsColor="#DA0A51"
+        android:id="@+id/alicLOadeID"
+        app:alliance_secondDotsColor="#FFBF00"
+        app:alliance_strokeWidth="7dp"
+        app:alliance_thirdDotsColor="#06e806" />
+
+    <ProgressBar
+        android:progressTint="#020007"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:progressBackgroundTint="#FFFF00"
+        android:background="@drawable/bop_shape"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_margin="20dp"
+        android:id="@+id/progreesbarID"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Student Diary  "
+        android:textColor="#06e806"
+        android:textSize="40sp"
+        android:background="@drawable/bcs_shape"
+        android:backgroundTint="#000000"
+        android:fontFamily="cursive"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" And Cgpa Calculator  "
+        android:textColor="#06e806"
+        android:textSize="40sp"
+        android:background="@drawable/bcs_shape"
+        android:backgroundTint="#000000"
+        android:fontFamily="cursive"
+        android:gravity="center"
+
+        >
+
+
+    </TextView>
+</LinearLayout>
