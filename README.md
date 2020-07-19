@@ -1,1 +1,1 @@
- # Student-Info-And-Cgpa-Calculator
+ # Universiy-Info-And-Cgpa-Calculator
