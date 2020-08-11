@@ -23,12 +23,13 @@
         app:alliance_thirdDotsColor="#06e806" />
 
     <ProgressBar
-        android:progressTint="#020007"
+        android:progressTint="#FFFFFF"
+        android:progressBackgroundTint="#2196F3"
         android:layout_width="match_parent"
         android:layout_height="9dp"
 
         android:layout_margin="20dp"
-        android:progressBackgroundTint="#FFFF00"
+       
         android:background="@drawable/bop_shape"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:id="@+id/progreesbarID"

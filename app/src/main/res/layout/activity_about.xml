@@ -4,47 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="#FFFFFF"
-
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".about">
 
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="250dp"
-         android:src="@drawable/dj"/>
+        android:src="@drawable/dj" />
 
 
     <TextView
 
-        android:layout_width="wrap_content"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:textSize="19sp"
-        android:textStyle="bold"
         android:id="@+id/textID"
-        android:textColor="#0f8ae5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:autoLink="email"
-        android:text="@string/about_o" />
+        android:gravity="center"
+        android:text="@string/about_o"
+        android:textColor="#0f8ae5"
+        android:textSize="19sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_marginTop="15dp"
-
-        android:layout_width="wrap_content"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:id="@+id/textViewID"
 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/about_t"
         android:textColor="#26e50f"
-        android:text="@string/about_t"/>
 
-
-
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>

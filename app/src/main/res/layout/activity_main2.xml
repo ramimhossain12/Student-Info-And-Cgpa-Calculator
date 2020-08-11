@@ -28,8 +28,8 @@
         app:alliance_thirdDotsColor="#06e806" />
 
     <ProgressBar
-        android:progressTint="#020007"
-        android:progressBackgroundTint="#FFFF00"
+        android:progressTint="#FFFFFF"
+        android:progressBackgroundTint="#2196F3"
         android:background="@drawable/bop_shape"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome To Student Diary  "
+        android:text="Welcome To University Daily Scheduler  "
         android:textColor="#06e806"
         android:textSize="40sp"
         android:background="@drawable/bcs_shape"
