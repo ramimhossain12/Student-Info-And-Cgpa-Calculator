@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" And Cgpa Calculator  "
-        android:textColor="#06e806"
+        android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:fontFamily="cursive"
         android:gravity="center"
