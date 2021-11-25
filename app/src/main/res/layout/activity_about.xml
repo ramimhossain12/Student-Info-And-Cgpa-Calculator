@@ -1,59 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@drawable/jo"
-
-    android:padding="10dp"
+    android:background="@drawable/a"
     tools:context=".about">
-
 
 
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:layout_marginTop="511dp"
         android:gravity="center"
-        android:layout_marginTop="200dp"
-        android:layout_height="match_parent">
+
+        android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:src="@drawable/dj" />
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/facebookID"
+            android:src="@drawable/facebook"/>
 
 
-        <TextView
+        <ImageView
+            android:layout_width="44dp"
+            android:id="@+id/instagramID"
+            android:layout_height="44dp"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/instagram"/>
 
-            android:id="@+id/textID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autoLink="email"
-            android:gravity="center"
-            android:text="@string/about_o"
-            android:textColor="#E91E63"
-            android:textSize="19sp"
-            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/twID"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/twitter"/>
 
-        <TextView
-            android:id="@+id/textViewID"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:gravity="center"
-            android:text="@string/about_t"
-            android:textColor="#FFFFFF"
-
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="22dp"
+            android:id="@+id/linkedinID"
+            android:src="@drawable/linkedin"/>
+        <ImageView
+            android:layout_width="44dp"
+            android:id="@+id/gitID"
+            android:layout_height="44dp"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/git"/>
 
     </LinearLayout>
 
 
 
-</ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
