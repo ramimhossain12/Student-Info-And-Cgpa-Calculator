@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">University Daily Scheduler</string>
+    <string name="app_name"> Daily Task</string>
 
 
     <string name="scheduler">SCHEDULER</string>
-    <string name="notes">NOTES</string>
+    <string name="notes">Daily Task</string>
     <string name="calculator">CALCULATOR</string>
     <string name="cgpa">CGPA</string>
     <string name="refresh">Refresh</string>
